@@ -3,11 +3,11 @@ package com.borax12.materialdaterangepickerexample;
 import android.app.Activity;
 import android.content.DialogInterface;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
 import com.borax12.materialdaterangepicker.date.DatePickerDialog;
 import com.borax12.materialdaterangepicker.time.RadialPickerLayout;
 import com.borax12.materialdaterangepicker.time.TimePickerDialog;
@@ -15,7 +15,7 @@ import com.wdullaer.materialdaterangepicker.R;
 
 import java.util.Calendar;
 
-public class MainActivity extends AppCompatActivity implements
+public class MainActivity extends Activity implements
     DatePickerDialog.OnDateSetListener,TimePickerDialog.OnTimeSetListener
 {
     private TextView dateTextView;
